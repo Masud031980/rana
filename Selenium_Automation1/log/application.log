@@ -413,3 +413,21 @@
 2020-12-21 23:45:13,754 [main] INFO QA-Masud - ***********> As a user i can verify the Home page >**********
 2020-12-21 23:45:13,863 [main] INFO QA-Masud - ***********> As a user i can click on logout >**********
 2020-12-21 23:45:15,172 [main] INFO QA-Masud - ***********> As a user i can see page Title >**********
+2020-12-23 10:24:17,392 [main] INFO QA-Masud - Test started : Nopackage
+2020-12-23 10:24:28,742 [main] INFO QA-Masud - ***********> as a user i can open any  browser >**********
+2020-12-23 10:24:33,900 [main] INFO QA-Masud - ***********> As a user i can enter the url >**********
+2020-12-23 10:24:40,060 [main] INFO QA-Masud - ***********> As a user i can enter user and password >**********
+2020-12-23 10:24:40,211 [main] INFO QA-Masud - ***********> As a user i can enter user and password >**********
+2020-12-23 10:24:40,276 [main] INFO QA-Masud - ***********> As a user i can Click on login button >**********
+2020-12-23 10:24:42,722 [main] INFO QA-Masud - ***********> As a user i can verify the Home page >**********
+2020-12-23 10:24:42,742 [main] INFO QA-Masud - ***********> As a user i can click on logout >**********
+2020-12-23 10:24:44,270 [main] INFO QA-Masud - ***********> As a user i can see page Title >**********
+2020-12-23 10:30:32,985 [main] INFO QA-Masud - Test started : Nopackage
+2020-12-23 10:30:42,951 [main] INFO QA-Masud - ***********> as a user i can open any  browser >**********
+2020-12-23 10:30:48,174 [main] INFO QA-Masud - ***********> As a user i can enter the url >**********
+2020-12-23 10:30:54,958 [main] INFO QA-Masud - ***********> As a user i can enter user and password >**********
+2020-12-23 10:30:55,101 [main] INFO QA-Masud - ***********> As a user i can enter user and password >**********
+2020-12-23 10:30:55,161 [main] INFO QA-Masud - ***********> As a user i can Click on login button >**********
+2020-12-23 10:30:57,863 [main] INFO QA-Masud - ***********> As a user i can verify the Home page >**********
+2020-12-23 10:30:57,884 [main] INFO QA-Masud - ***********> As a user i can click on logout >**********
+2020-12-23 10:30:58,687 [main] INFO QA-Masud - ***********> As a user i can see page Title >**********

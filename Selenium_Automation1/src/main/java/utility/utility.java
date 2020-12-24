@@ -2,11 +2,17 @@ package utility;
 
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 
 import org.apache.maven.shared.utils.io.FileUtils;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -53,8 +59,21 @@ public class utility extends SuperClass {
 		FileUtils.copyFile(source, obj);
 		return destination;		
 	}
-
+@SuppressWarnings("resource")
+public static ArrayList<String> readExcelData(int cloNo) throws IOException {
+	FileInputStream file = new FileInputStream("C:\\Users\\alamm\\git\\Selenium_Automation\\Selenium_Automation\\PMCTestData\\TestData.xlsx");
+	XSSFWorkbook workbook = new XSSFWorkbook(file);
+	XSSFSheet sheet = workbook.getSheet("testData");
+	Iterator<Row> rowiterator = sheet.iterator();
+	rowiterator.next();
 	
+	ArrayList<String> list = new ArrayList<String>();
+	while (rowiterator.hasNext()) {
+		list.add(rowiterator.next().getCell(cloNo).getStringCellValue());
+	}
+	System.out.println("List ::: " + list);
+    return list;
+}	
 }	
 	
 
